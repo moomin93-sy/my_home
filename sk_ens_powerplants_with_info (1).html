@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_295cc039226589b1e08c85350c6ccacf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_295cc039226589b1e08c85350c6ccacf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_295cc039226589b1e08c85350c6ccacf = L.map(
+                "map_295cc039226589b1e08c85350c6ccacf",
+                {
+                    center: [36.5, 127.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_228345720724e981b2c4fdd81eb58667 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_228345720724e981b2c4fdd81eb58667.addTo(map_295cc039226589b1e08c85350c6ccacf);
+        
+    
+            var marker_20b459a3030fe3ec05bfb5bcb2d88586 = L.marker(
+                [34.9401, 127.7606],
+                {
+}
+            ).addTo(map_295cc039226589b1e08c85350c6ccacf);
+        
+    
+            var icon_120fa8d12920c1b78a1941675421b43a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f6e4c01d16ec00b9025bb1ef8f6cbf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa9898088b25515d2a8cf316e44d990c = $(`<div id="html_fa9898088b25515d2a8cf316e44d990c" style="width: 100.0%; height: 100.0%;"><b>광양천연가스발전소</b><br>2006년 상업운전을 시작한 광양천연가스발전소는 국내 최초의 천연가스 직도입발전소입니다.</div>`)[0];
+                popup_0f6e4c01d16ec00b9025bb1ef8f6cbf1.setContent(html_fa9898088b25515d2a8cf316e44d990c);
+            
+        
+
+        marker_20b459a3030fe3ec05bfb5bcb2d88586.bindPopup(popup_0f6e4c01d16ec00b9025bb1ef8f6cbf1)
+        ;
+
+        
+    
+    
+                marker_20b459a3030fe3ec05bfb5bcb2d88586.setIcon(icon_120fa8d12920c1b78a1941675421b43a);
+            
+    
+            var marker_1f8203a9bdda388214d76b2533d51927 = L.marker(
+                [37.7833, 126.7927],
+                {
+}
+            ).addTo(map_295cc039226589b1e08c85350c6ccacf);
+        
+    
+            var icon_a39b4fb30b3edf6134f37269893b70a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f12e0586b31d189efd697fe66ae2fc5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82b03992b04158138a7d7bf74de0af53 = $(`<div id="html_82b03992b04158138a7d7bf74de0af53" style="width: 100.0%; height: 100.0%;"><b>파주천연가스발전소</b><br>2017년 가동을 시작한 파주천연가스발전소는 수도권에 위치해 송전에 따른 전력 손실을 최소화했습니다.</div>`)[0];
+                popup_7f12e0586b31d189efd697fe66ae2fc5.setContent(html_82b03992b04158138a7d7bf74de0af53);
+            
+        
+
+        marker_1f8203a9bdda388214d76b2533d51927.bindPopup(popup_7f12e0586b31d189efd697fe66ae2fc5)
+        ;
+
+        
+    
+    
+                marker_1f8203a9bdda388214d76b2533d51927.setIcon(icon_a39b4fb30b3edf6134f37269893b70a3);
+            
+    
+            var marker_9fbdcf8a02f64fe61cf272eadea57172 = L.marker(
+                [37.5386, 127.216],
+                {
+}
+            ).addTo(map_295cc039226589b1e08c85350c6ccacf);
+        
+    
+            var icon_7da0a76b940a3aff762bc93b96c46a22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eba7f46c965bd1d531967a98d372c3d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cf1b70406424751162e4e90a0c2e2008 = $(`<div id="html_cf1b70406424751162e4e90a0c2e2008" style="width: 100.0%; height: 100.0%;"><b>하남열병합발전소</b><br>SK이노베이션 E&S의 자회사 나래에너지서비스가 운영 중인 하남열병합발전소는 2015년 상업 운전을 개시하여 현재 하남 미사지구, 강일 1·2지구, 고덕지구 등에 난방과 전기를 공급하고 있습니다.</div>`)[0];
+                popup_eba7f46c965bd1d531967a98d372c3d5.setContent(html_cf1b70406424751162e4e90a0c2e2008);
+            
+        
+
+        marker_9fbdcf8a02f64fe61cf272eadea57172.bindPopup(popup_eba7f46c965bd1d531967a98d372c3d5)
+        ;
+
+        
+    
+    
+                marker_9fbdcf8a02f64fe61cf272eadea57172.setIcon(icon_7da0a76b940a3aff762bc93b96c46a22);
+            
+    
+            var marker_2a68c33a047ae457be05187d14809c91 = L.marker(
+                [37.4789, 127.1433],
+                {
+}
+            ).addTo(map_295cc039226589b1e08c85350c6ccacf);
+        
+    
+            var icon_6f81840caebef8cc8257b33aca76d94f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef3ec2e0497e606f52c6509a20de7328 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ce9da7d9cb11d857f9f430ae924f519 = $(`<div id="html_0ce9da7d9cb11d857f9f430ae924f519" style="width: 100.0%; height: 100.0%;"><b>위례열병합발전소</b><br>SK이노베이션 E&S의 자회사 나래에너지서비스가 운영하는 위례열병합발전소는 2017년 가동을 개시하여 위례신도시 등에 난방과 전기를 공급하고 있습니다.</div>`)[0];
+                popup_ef3ec2e0497e606f52c6509a20de7328.setContent(html_0ce9da7d9cb11d857f9f430ae924f519);
+            
+        
+
+        marker_2a68c33a047ae457be05187d14809c91.bindPopup(popup_ef3ec2e0497e606f52c6509a20de7328)
+        ;
+
+        
+    
+    
+                marker_2a68c33a047ae457be05187d14809c91.setIcon(icon_6f81840caebef8cc8257b33aca76d94f);
+            
+    
+            var marker_672dec0cd0d452b8957a215a7731e66e = L.marker(
+                [37.2955, 127.6368],
+                {
+}
+            ).addTo(map_295cc039226589b1e08c85350c6ccacf);
+        
+    
+            var icon_23ec2a4db3d6ec364372cd5ee205e6ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b3eb1cb6f59b5781bc84b3fe61304b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_527124ee7e0649998adc7d724dd6a61a = $(`<div id="html_527124ee7e0649998adc7d724dd6a61a" style="width: 100.0%; height: 100.0%;"><b>여주천연가스발전소</b><br>2023년 가동을 시작한 여주천연가스발전소는 안정적인 전력 공급에 기여하고 있습니다.</div>`)[0];
+                popup_5b3eb1cb6f59b5781bc84b3fe61304b9.setContent(html_527124ee7e0649998adc7d724dd6a61a);
+            
+        
+
+        marker_672dec0cd0d452b8957a215a7731e66e.bindPopup(popup_5b3eb1cb6f59b5781bc84b3fe61304b9)
+        ;
+
+        
+    
+    
+                marker_672dec0cd0d452b8957a215a7731e66e.setIcon(icon_23ec2a4db3d6ec364372cd5ee205e6ad);
+            
+</script>
+</html>
